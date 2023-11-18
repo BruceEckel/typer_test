@@ -3,7 +3,7 @@ name = "typer-test"
 version = "0.1.0"
 description = "Demonstrates a problem with typer"
 authors = [{ name = "Bruce Eckel", email = "mindviewinc@gmail.com" }]
-dependencies = []
+dependencies = ["typer[all]>=0.9.0"]
 readme = "README.md"
 requires-python = ">= 3.8"
 
@@ -17,3 +17,6 @@ dev-dependencies = []
 
 [tool.hatch.metadata]
 allow-direct-references = true
+
+[project.scripts]
+test1 = "typer_test.test:main"
