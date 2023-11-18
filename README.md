@@ -1,4 +1,7 @@
 # typer_test
+
+> NOTE: I created this before discovering the `no_args_is_help` flag. Not sure if it still represents a problem but leaving it up for the time being.
+
 Demonstrates a problem with typer.
 
 The application automatically produces help when run using the Python command line (with no arguments):
